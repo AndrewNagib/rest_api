@@ -11,6 +11,7 @@ describe('price data', () => {
             });
     });
 
+
     it('has 200 response code', () => {
         assert.equal(data.status, 200, 'the response code is not 200');
     });
