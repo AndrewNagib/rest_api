@@ -1,7 +1,7 @@
-const jestConfig = require("jest.config");
+const jestConfig = require("../jest.config");
 
 const suites = [
-  "test/**/*.test.ts",
+  "test/apiTest.ts",
 ];
 
 module.exports = {

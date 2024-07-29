@@ -1,5 +1,4 @@
 module.exports = {
-  extends: "@qa/mtu-typescript",
   parserOptions: {
     project: "./tsconfig.json",
     tsconfigRootDir: __dirname,

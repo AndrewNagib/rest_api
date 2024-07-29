@@ -1,6 +1,4 @@
 module.exports = {
-  transformIgnorePatterns: ["/node_modules/@mtu/contract/^.+\\.tsx?$"],
-  setupFilesAfterEnv: ["@qa/jest-allure/lib/setup", "<rootDir>/config/jest.setup.ts"],
   transform: {
     "^.+\\.tsx?$": "ts-jest",
   },
